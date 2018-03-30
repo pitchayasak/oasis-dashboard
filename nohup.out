@@ -1,0 +1,45 @@
+[08:59:45] Failed to load external module @babel/register
+[08:59:45] Requiring external module babel-register
+[08:59:45] Using gulpfile ~/dashboard_oasis/gulpfile.babel.js
+[08:59:45] Starting 'develop'...
+Time: [1m10153[22mms
+        [1mAsset[22m      [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
+   [1m[32mindex.html[39m[22m   1.45 kB        [1m[22m  [1m[32m[emitted][39m[22m  
+       [1m[32mapp.js[39m[22m   1.42 MB       [1m0[22m  [1m[32m[emitted][39m[22m  app
+    [1m[32mvendor.js[39m[22m   3.26 MB       [1m1[22m  [1m[32m[emitted][39m[22m  vendor
+    [1m[32mstyle.css[39m[22m   9.17 kB       [1m0[22m  [1m[32m[emitted][39m[22m  app
+   [1m[32mapp.js.map[39m[22m   1.65 MB       [1m0[22m  [1m[32m[emitted][39m[22m  app
+[1m[32mstyle.css.map[39m[22m  86 bytes       [1m0[22m  [1m[32m[emitted][39m[22m  app
+[1m[32mvendor.js.map[39m[22m   3.87 MB       [1m1[22m  [1m[32m[emitted][39m[22m  vendor
+
+[1m[31mERROR in ./src/common/known_accounts.js
+Module build failed: SyntaxError: Unexpected token, expected , (4:2)
+
+  2 |   'GDFL4FSVBABH4PRHTD7NLG5BF54JXVJGLYOI7NG3S4VWPMIR5WVBCBXZ': 'Root - Sertis',
+  3 |   'GB5CDTHVBUY2UAXVOPR3BXSIRZMPID5PQQJXLB3ACF7LIFKGVEA7LNDD': 'Friendbot - Sertis'
+> 4 |   'GB4MTB22S63UTUGOANUKMGVVFJYOSU66YAEB3NF7L2OMNHLVCX56QAWJ': 'Psena - Sertis'
+    |   ^
+  5 | };
+  6 | 
+
+ @ ./src/components/AccountBadge.js 17:22-57[39m[22m
+Child [1mextract-text-webpack-plugin[22m:
+    
+[Browsersync] Access URLs:
+ ----------------------------
+ Local: http://localhost:3000
+ ----------------------------
+    UI: http://localhost:3001
+ ----------------------------
+[Browsersync] Serving files from: ./.tmp
+[Browsersync] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+Time: [1m1336[22mms
+        [1mAsset[22m      [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
+   [1m[32mindex.html[39m[22m   1.45 kB        [1m[22m  [1m[32m[39m[22m           
+       [1m[32mapp.js[39m[22m   1.42 MB       [1m0[22m  [1m[32m[emitted][39m[22m  app
+    [1m[32mvendor.js[39m[22m   3.26 MB       [1m1[22m  [1m[32m[39m[22m           vendor
+    [1m[32mstyle.css[39m[22m   9.17 kB       [1m0[22m  [1m[32m[emitted][39m[22m  app
+[1m[32mvendor.js.map[39m[22m   3.87 MB       [1m1[22m  [1m[32m[39m[22m           vendor
+   [1m[32mapp.js.map[39m[22m   1.65 MB       [1m0[22m  [1m[32m[emitted][39m[22m  app
+[1m[32mstyle.css.map[39m[22m  86 bytes       [1m0[22m  [1m[32m[emitted][39m[22m  app
+[Browsersync] Reloading Browsers...
